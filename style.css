@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px 10px;
+    background-color: #e8e3e3;
+    border: none;
+    border-radius: 30px;
+}
+
+.heading{
+    font-size: 25px;
+}
+
+.guessCont{
+    margin-top: 20px;
+}
+
+.guessCont p{
+    display: inline;
+    font-size: 30px;
+}
+
+.guessCont span{
+    font-size: 30px;
+}
+
+
+.inputClass{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input{
+    width: 80%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btnClass{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 40%;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color:skyblue;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(12, 133, 181);
+}
